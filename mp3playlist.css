@@ -1,0 +1,43 @@
+body{
+	background-color: #ccc;
+	font-family: arial;
+
+}
+
+#songs{
+	width: 500px;
+	margin: 0 auto;
+	box-shadow: rgba(0,0,0,.5);
+}
+
+#song h1 {
+	font-weight: normal;
+	font-size: 20px;
+	color: blue;
+	cursor: pointer;
+}
+
+.song{
+	padding: 0px 5px;
+}
+
+.songTitle{
+	
+	height:40px;
+	overflow: hidden;
+
+
+}
+
+#songTitle:nth-Child(even) {
+	
+	background-color: #aaa;
+}
+
+.duration{
+	float: right;
+	color: #444;
+}
+
+
+
